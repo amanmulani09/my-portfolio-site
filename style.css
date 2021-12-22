@@ -1,0 +1,212 @@
+/* navigation menu */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#navbar{
+    display: flex;
+    background-color: lightsteelblue;
+    border-bottom-left-radius: 40px;
+    position: relative;
+    height: 73px;
+    width: 100%;
+}
+
+#navbar ul{
+    display: flex;
+    /* justify-content: right; */
+    /* align-self: flex-end; */
+    position: absolute;
+    right: 150px;
+    
+    
+
+}
+    
+    
+#navbar li {
+     list-style: none;
+     padding: 23px;
+     /* align-self: flex-end; */
+     /* position: absolute; */
+     /* left: 400px; */
+
+
+}
+#navbar li a{
+    text-decoration: none;
+    font-size: 1.3rem;
+    color:white;
+
+}
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container img{
+    height: 400px;
+    width: 500px;
+    margin: 23px;
+}
+#mobile{
+    text-align: center;
+}
+#main-container{
+    flex-wrap: wrap;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 1250px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 7px;
+}
+.box{
+    height: 200px;
+    width:95%;
+    margin-top: 13px;
+    /* border: 2px solid skyblue; */
+    background-color:lightgray;
+    border-radius: 7px;
+    text-decoration: none;
+    
+
+}
+.box h1{
+    text-align: center;
+    margin: 20px;
+    color: slateblue;
+}
+.box p{
+    text-align: center;
+    font-size:1.5rem;
+}
+.btn{
+    display: block;
+       margin: auto;
+       border: 2px solid black;
+       padding: 8px;
+       margin-top: 27px;
+       align-items: center;
+       background: none;
+       cursor: pointer;
+       border-radius: 7px;
+       font-size:1rem;
+       text-decoration: none;
+}
+
+.box button:hover{
+
+    background-color: black;
+    color:white;
+
+}
+
+
+.fbox{
+    height: 200px;
+    width:95%;
+    margin-top: 13px;
+    /* border: 2px solid skyblue; */
+    background-color: rgb(214, 208, 208);
+    
+
+}
+
+.header{
+    width:100%;
+    height: 303px;
+    background-color: cornflowerblue;
+    color:black;
+    margin-top: 33px;
+}
+.box a{
+    text-decoration: none;
+}
+
+.header h1{
+    color:black;
+}
+
+.icons-container{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icons-container img{
+    width:80px;
+    height: 40%;
+    margin-top: 33px;
+    cursor: pointer;
+}
+.icons-container img:hover{
+    color: lightblue;
+}
+.mb{
+    margin-bottom: 33px;
+}
+
+/* Project Section Styling */
+
+.project-btn{
+
+   
+    font-size:1rem;
+   
+    background: none;
+    border:2px solid black;
+    padding:13px;
+    margin-left: 23px;
+    border-radius: 7px;
+    cursor: pointer;
+
+}
+#btn-section{
+    margin-left: 464px;
+    margin-top: 33px;
+}
+
+
+#main-container2{
+    flex-wrap: wrap;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 1050px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.project-heading{
+
+    font-size:3rem;
+    color:cornflowerblue;
+    margin: 13px;
+  
+}
+
+#navbar:focus{
+    color:blue;
+}
+
+
+/* Blog Section Designing */
+
+
+#main-container3{
+    flex-wrap: wrap;
+    display: flex;
+    /* border: 2px solid red; */
+    height: 700px;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
